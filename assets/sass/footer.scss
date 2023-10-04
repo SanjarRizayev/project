@@ -1,0 +1,72 @@
+.footer {
+    margin: 50px 0;
+
+    &_wraps {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+
+        .footer_wrap {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .icons {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                i{
+                    font-size: 20px;
+                    color: #fff;
+                }
+            }
+
+            h3 {
+                font-size: 30px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            a {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 500;
+            }
+
+            .app {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                justify-content: space-between;
+                border: 1px solid #fff;
+                width: 400px;
+                height: 50px;
+
+                &>div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+
+                input {
+                    background-color: transparent;
+                    border: none;
+                    outline: none;
+                    color: #fff;
+                    font-size: 16px;
+                    padding-left: 10px;
+                }
+
+            }
+        }
+    }
+    &_bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        a{
+            color: #fff;
+        }
+    }
+}

@@ -7,22 +7,36 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     background: black;
 }
-.navbar{
-    &_logo{
-        a{
+
+.navbar {
+    &_logo {
+        a {
             text-decoration: none;
         }
     }
-    &_links{
-        a{
+
+    &_links {
+        a {
             text-decoration: none;
         }
     }
 }
-.containers{
+
+.containers {
     width: 90%;
     margin: 0 auto;
+}
+
+.footer_wrap {
+    a {
+        text-decoration: none;
+    }
+}
+.footer_bottom{
+    a{
+        text-decoration: none;
+    }
 }
