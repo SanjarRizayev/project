@@ -69,6 +69,31 @@ header {
   display: none;
 }
 
+.showcase {
+  margin: 70px 0;
+}
+.showcase_wraps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+.showcase_wraps .showcase_left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.showcase_wraps .showcase_left h1 {
+  font-size: 45px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.showcase_wraps .showcase_left p {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 23px;
+}
+
 @media (max-width: 772px) {
   .navbar_btns {
     padding-left: 250px;
@@ -124,6 +149,11 @@ header {
 @media (max-width: 400px) {
   .navbar_links {
     width: 100%;
+  }
+}
+@media (max-width: 1088px) {
+  .showcase_wraps {
+    grid-template-columns: 100%;
   }
 }
 

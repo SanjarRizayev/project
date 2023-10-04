@@ -62,10 +62,19 @@
         }
     }
 }
-@media(max-width:400px){
-    .navbar{
-        &_links{
+
+@media(max-width:400px) {
+    .navbar {
+        &_links {
             width: 100%;
+        }
+    }
+}
+
+@media(max-width:1088px) {
+    .showcase {
+        &_wraps {
+            grid-template-columns: 100%;
         }
     }
 }
