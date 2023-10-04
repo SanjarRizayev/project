@@ -1,0 +1,8 @@
+.servise {
+    margin: 100px 0;
+
+    &_wraps {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

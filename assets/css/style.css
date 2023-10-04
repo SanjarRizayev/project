@@ -94,6 +94,14 @@ header {
   line-height: 23px;
 }
 
+.servise {
+  margin: 100px 0;
+}
+.servise_wraps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 @media (max-width: 772px) {
   .navbar_btns {
     padding-left: 250px;
@@ -154,6 +162,23 @@ header {
 @media (max-width: 1088px) {
   .showcase_wraps {
     grid-template-columns: 100%;
+  }
+}
+@media (max-width: 1020px) {
+  .servise_wraps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 670px) {
+  .servise_wraps {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+}
+@media (max-width: 326px) {
+  .servise_wraps .servise_wrap {
+    width: 100%;
   }
 }
 
