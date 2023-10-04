@@ -100,9 +100,17 @@
 @media(max-width:326px) {
     .servise {
         &_wraps {
-            .servise_wrap{
+            .servise_wrap {
                 width: 100%;
             }
+        }
+    }
+}
+
+@media(max-width:800px) {
+    .about {
+        &_video {
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 }
